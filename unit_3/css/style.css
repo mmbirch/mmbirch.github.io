@@ -1,23 +1,15 @@
-
-*{
-	padding: 0;
-	margin: 0;
-}
-
+*{padding: 0;margin: 0;box-sizing:border-box;}
 body{
 	background-color: #FCFFF5;
+	color: #3E606F;
+	font-family: "Garamond", serif;
 }
-
 footer{
-
 	background-color: #002F2F
 }
-
 nav{
 	text-align: center;
 }
-
-
 h1, h2, h3 {
 	font-family: "Helvetica", sans-serif;
 	text-align: center;
@@ -26,7 +18,6 @@ h1, h2, h3 {
 }
 
 h4, h5{
-	font-family: "Garamond", serif;
 	text-align: center;
 	font-weight: 400;
 	padding-bottom: 20px;
@@ -34,9 +25,6 @@ h4, h5{
 }
 
 p{
-	color: #3E606F;
-	font-family: "Garamond", serif;
-	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 
@@ -44,7 +32,6 @@ p{
 
 a{
 	text-decoration: none;
-	font-family: "Garamond", serif;
 	font-weight: 600;
 	color: #193441;
 }
@@ -54,22 +41,19 @@ a{
 
 .floatingblock {
 	display: inline-block;
-    width: 375px;
-    height: 300px;
-    margin: 10px;
-    padding: 10px;
-    background-color: rgba(62,96,111,0.3); 
-    align-content: center;
+	width: 375px;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	background-color: rgba(62,96,111,0.3); 
 }
-
 .projectblock {
-	color: #3E606F; 
 	font-weight: 900;
 	padding-bottom: 10px;
 }
 
 #hero{
-	background-image: url(waves.jpeg);
+	background-image: url(../images/waves.jpeg);
 	padding-top: 200px;
 	padding-bottom: 200px;
 	margin-top: 20px;
