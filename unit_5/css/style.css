@@ -6,89 +6,31 @@ body{
 	font-family: 'Lora', serif;
 	font-size: 12px;
 }
+header{
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
 footer{
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
 	text-align: center;
 	background-color: #383838;
 }
 nav{
-	text-align: center;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+    }
+aside{
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
 }
-h1{
-	color: #ED471A;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 300;
-	font-size: 50px;
-	text-transform: uppercase;
-	text-align: center;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-h2{
-	color: #131D3B;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 300;
-	font-size:60px;
-	text-transform: uppercase;
-	text-align: center;
-	padding-bottom: 10px;
-	padding-top: 20px;
-}
-h3{
-	color: #383838;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: 300;
-	font-size: 30px;
-	text-transform: uppercase;
-	text-align: center;
-	padding-bottom: 20px;
-	padding-top: 10px;
-}
-h4, h5{
-	font-weight: 300;
-	text-align: center;
-	padding-bottom: 20px;
-
-}
-p{
-	padding-top: 10px;
-	padding-bottom: 10px;
-
-}
-a{
-	text-decoration: none;
-	font-weight: 600;
-	color: #193441;
-}
-hr{
-	margin: 30px;
-}
-.darkbackground{
-	color: #FCFFF5;
+div, section{
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
 }
 
-.floatingblock {
-	float: left;
-	width: 375px;
-	height: 115px;
-	margin: 10px;
-	padding: 10px;
-	background-color: #D9DBDB; 
-}
-.projectblock {
-	font-weight: 900;
-	padding-bottom: 10px;
-}
-
-#hero{
-	color: #383838;
-	background-image: url(../images/CleanDesk-sm.jpg);
-	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
-#mainnav{
-	padding: 5px;
-}
