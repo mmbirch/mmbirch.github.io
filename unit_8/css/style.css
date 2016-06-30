@@ -12,7 +12,7 @@ header{
     padding: 1.66em;
 }
 footer{
-	background-color: #FF957E;
+	color: #FF957E;
     border: .1em black solid;
     padding: 1.66em;
 	text-align: center;
@@ -52,6 +52,11 @@ div, section{
     height: 0;
 }
 
+.dark {
+    color: #FFFFFF;
+    font-size: 20em;
+}
+
 #right {
 	background-color: #E55B88;
     border: .1em black solid;
@@ -78,6 +83,15 @@ div, section{
         padding-bottom: 1em;
         margin: auto;
     }
+
+    h2{
+        padding-bottom: 1em;
+    }
+
+    h3 {
+        padding-bottom: 1em;
+    }
+
     p {
         font-size: 1.5em;
         line-height: 1.5em;
@@ -92,8 +106,10 @@ div, section{
 
     }
     .projectblock {
-        height: 5em;
+        height: 15em;
     }
 
-
+    #hero > p {
+        padding-top: 1em;
+    }
 }
